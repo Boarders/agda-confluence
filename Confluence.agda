@@ -17,10 +17,6 @@ data ℕ : Set where
   zero : ℕ
   succ : ℕ → ℕ
 
-one : ℕ
-one = succ zero
-
-
 data _* {a} (↦ : a → a → Set) : (a → a → Set) where
 
   _∎ : ∀ (M : a)
